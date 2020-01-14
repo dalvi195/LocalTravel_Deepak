@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="emailWrong">#bf0000</color>
+    <color name="emailRight">#000000</color>
+
+
+    <color name="white">#fbfbfb</color>
+    <color name="btnSignUp">#39796b</color>
+    <color name="btnSignActive">#A9d440</color>
+
+
+    <color name="overlayBackground">#A4A9B9</color>
+    <color name="overlayActionBar">#0e0d0e</color>
+</resources>

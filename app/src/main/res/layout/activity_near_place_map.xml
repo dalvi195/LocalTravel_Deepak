@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NearPlaceMap">
+
+    <LinearLayout
+        android:orientation="vertical"
+
+        android:id="@+id/linear_layout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Text Label -->
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:gravity="center"
+            android:text="CATEGORY:"
+            android:layout_marginBottom="5dp"
+            />
+
+        <!-- Spinner Element -->
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SEARCH"
+            android:id="@+id/buttonSearch"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+           />
+
+    </LinearLayout>
+
+    <WebView
+        android:id="@+id/mapWebView"
+        android:layout_below="@id/linear_layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </WebView>
+
+
+
+
+
+
+</RelativeLayout>

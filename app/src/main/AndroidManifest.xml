@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    package="com.deepak.localtravel">
+    <!-- <dist:module dist:instant="true" /> -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Local Travel"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".MapActivityFolder.MapMainActivity"></activity>
+        <activity android:name=".NearPlaceMap" />
+        <activity android:name=".EventMain" />
+        <activity
+            android:name=".CabBook"
+            android:label="@string/title_activity_cab_book"
+            android:theme="@style/NoActionBar" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCraae2Wq83dNPaSzrDJGy8o48cMjJyVEc" />
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <activity
+            android:name=".MapActivity"
+            android:label="@string/title_activity_map"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name=".ActivityPunePage"
+            android:label="@string/title_activity_mumbai_page"
+            android:theme="@style/NoActionBar" />
+        <activity android:name=".TextToSpeech" />
+        <activity
+            android:name=".Register"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name=".ActivityPunePlacesList"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name=".ActivityMainLogin"
+            android:label="@string/title_activity_main_login"
+            android:theme="@style/NoActionBar" />
+        <activity android:name=".ActivitySplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SignIn"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name=".UserProfile"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name=".ActivityMyChoice"
+            android:theme="@style/NoActionBar" />
+    </application>
+
+</manifest>

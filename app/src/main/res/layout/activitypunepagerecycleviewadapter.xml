@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/cardView"
+        android:layout_margin="5dp"
+        android:layout_gravity="center"
+        android:elevation="3dp">
+
+        <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:id="@+id/categoryImage"
+            android:scaleType="fitXY"
+            android:clickable="true"/>
+            
+          <androidx.appcompat.widget.AppCompatTextView
+              android:text="TextView"
+              android:layout_below="@id/categoryImage"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_centerHorizontal="true"
+              android:textAllCaps="true"
+              android:textSize="25dp"
+              android:id="@+id/categoryName"/>
+
+
+         </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

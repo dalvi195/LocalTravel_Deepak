@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "614008827915",
+    "firebase_url": "https://local-travel-5b1f7.firebaseio.com",
+    "project_id": "local-travel-5b1f7",
+    "storage_bucket": "local-travel-5b1f7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:614008827915:android:5e884842ee84d6ae70970e",
+        "android_client_info": {
+          "package_name": "com.deepak.localtravel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "614008827915-7i5q2sjtmk3vlbfobbm4i44aag59q4nu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.deepak.localtravel",
+            "certificate_hash": "738f9f96d4a6930f11f6e25a7c546527b114cc0c"
+          }
+        },
+        {
+          "client_id": "614008827915-9p7vj55k8clprui0s49d2ukkl5je7em8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCraae2Wq83dNPaSzrDJGy8o48cMjJyVEc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "614008827915-9p7vj55k8clprui0s49d2ukkl5je7em8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

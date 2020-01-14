@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EventMain">
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/placeNear"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/eveBtn1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add/ Remove Event"
+            tools:ignore="InvalidId" />
+
+
+
+        <TextView
+            android:id="@+id/eventNAme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Event's In Pune"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="#000000  "
+            android:textSize="25dp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycleEventViewList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F3678FB1"
+            android:scrollbars="vertical" />
+
+    </LinearLayout>
+
+</RelativeLayout>

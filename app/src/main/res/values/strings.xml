@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Local Travel</string>
+    <string name="title_activity_main_login">ActivityMainLogin</string>
+    <string name="title_activity_mumbai_page">ActivityMumbaiPage</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="project_copy">MapFactor : Navigation by Vidya Pawar</string>
+    <string name="title_activity_user_profile">USerProfile</string>
+    <string name="user_info">My Profile</string>
+    <string name="title_activity_map">MapActivity</string>
+    <string name="google_map_API_KEY">AIzaSyCraae2Wq83dNPaSzrDJGy8o48cMjJyVEc</string>
+
+    <string-array name="language_arrays">
+        <item>Hindi</item>
+        <item>Marathi</item>
+        <item>Punjabi</item>
+        <item>Bangla</item>
+
+    </string-array>
+    <string name="title_activity_cab_book">CabBook</string>
+
+</resources>
